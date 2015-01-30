@@ -1,0 +1,24 @@
+[submodule "system/vim.symlink/bundles/vimux"]
+	path = system/vim.symlink/bundles/vimux
+	url = git@github.com:benmills/vimux.git
+[submodule "system/vim.symlink/bundles/nerdcommenter"]
+	path = system/vim.symlink/bundles/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "system/vim.symlink/bundles/vim-endwise"]
+	path = system/vim.symlink/bundles/vim-endwise
+	url = git@github.com:tpope/vim-endwise.git
+[submodule "system/vim.symlink/bundles/vim-rails"]
+	path = system/vim.symlink/bundles/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+[submodule "system/vim.symlink/bundles/vim-ruby"]
+	path = system/vim.symlink/bundles/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+[submodule "system/vim.symlink/bundles/vim-vividchalk"]
+	path = system/vim.symlink/bundles/vim-vividchalk
+	url = git@github.com:tpope/vim-vividchalk.git
+[submodule "system/vim.symlink/bundles/php.vim"]
+	path = system/vim.symlink/bundles/php.vim
+	url = git@github.com:StanAngeloff/php.vim.git
+[submodule "system/vim.symlink/bundles/nerdtree"]
+	path = system/vim.symlink/bundles/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
