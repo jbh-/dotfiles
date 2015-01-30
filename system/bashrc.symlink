@@ -40,7 +40,7 @@ case $- in *i* )
     _source_if_exists "${HOME}/.prompting" ;
 
     # User-specific aliases, functions and paths
-    _source_if_exists "${HOME}/.aliases" "${HOME}/.functions" "${HOME}/.path" ;
+    _source_if_exists "${HOME}/.aliases" "${HOME}/.functions" "${HOME}/.path" "${HOME}/.profile" ;
 
     # After everything else
     _source_if_exists "${HOME}/.after_dotfiles" ;
