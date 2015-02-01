@@ -4,3 +4,6 @@ software/weechat.symlink/logs/*
 !software/weechat.symlink/logs/.gitkeep
 software/weechat.symlink/irc.conf
 software/weechat.symlink/weechat.log
+
+system/vim.symlink/.netrwhist
+
