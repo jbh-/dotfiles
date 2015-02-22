@@ -1,4 +1,4 @@
-# solarized colorscheme by lasers (no cyan version) 
+# custom colorscheme by jbh- 
 ---
 colors:
     base03:           '#002b36'
@@ -20,9 +20,9 @@ colors:
     custom:           '#1c5766'
 window_colors:
     focused:
-        border:         'base03'
-        background:     'base03'
-        text:           'base3'
+        border:         'base1'
+        background:     'base1'
+        text:           'base03'
         indicator:      'green'
     focused_inactive:
         border:         'base02'

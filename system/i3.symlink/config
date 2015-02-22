@@ -17,7 +17,7 @@ set $WS2 workspace 2:
 set $WS3 workspace 3:
 set $WS4 workspace 4:
 set $WS5 workspace 5:
-set $WS6 workspace 6:
+set $WS6 workspace 6:
 set $WS7 workspace 7:
 set $WS8 workspace 8:
 set $WS9 workspace 9:
@@ -25,6 +25,7 @@ set $WS10 workspace 10:
 
 # Window assignments
 assign [class="Google-chrome"] 1:
+assign [class="Gimp"] 6:
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
@@ -45,7 +46,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+Return exec chromium
 
 # Lock screen
-bindsym $mod+x exec i3lock -i ~/Pictures/Lockscreens/superbubble-wallpaper-1920x1080.png
+bindsym $mod+x exec i3lock -i $HOME/Pictures/Lockscreens/superbubble-wallpaper-1920x1080.png
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -58,6 +59,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
 
 # Screenshots
+# bindsym Print exec scrot ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png
 bindsym Print exec $HOME/.i3/screen.sh root
 bindsym $mod+Print exec $HOME/.i3/screen.sh active
 
@@ -190,7 +192,7 @@ bar {
 bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%- unmute
 bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+ unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle
-client.focused #002b36 #002b36 #fdf6e3 #859900
+client.focused #93a1a1 #93a1a1 #002b36 #859900
 client.focused_inactive #073642 #073642 #eee8d5 #6c71c4
 client.unfocused #073642 #073642 #93a1a1 #586e75
 client.urgent #d33682 #d33682 #fdf6e3 #dc322f
