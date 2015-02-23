@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCREEN_DIR=$HOME/Pictures/Screenshots/
+SCREEN_DIR=$HOME/Dropbox/Screenshots/
 SCREEN_PROMPT=1
 
 window='root'

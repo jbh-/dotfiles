@@ -42,6 +42,9 @@ case $- in *i* )
     # User-specific aliases, functions and paths
     _source_if_exists "${HOME}/.aliases" "${HOME}/.functions" "${HOME}/.path" "${HOME}/.profile" ;
 
+    # NVM
+    _source_if_exists "${HOME}/.nvm/nvm.sh" ;
+
     # After everything else
     _source_if_exists "${HOME}/.after_dotfiles" ;
 
